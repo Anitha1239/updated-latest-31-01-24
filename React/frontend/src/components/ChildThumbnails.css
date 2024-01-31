@@ -1,0 +1,59 @@
+
+/* ChildThumbnails.css */
+
+/* Styles for the ChildThumbnails component */
+.child-thumbnails-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slider-container {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.card {
+  margin: 0 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  padding: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  color: #888;
+}
+.genretitle {
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+  text-decoration: none !important; /* Use !important to enforce this style */
+}
+
+/* Add additional styles as needed for ChildThumbnails */

@@ -1,0 +1,85 @@
+/* Watchlist.module.css */
+
+/* Style for video container */
+.videocontainer {
+  margin: 20px;
+
+  padding: 20px;
+}
+
+/* Style for video header */
+.videoheader {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White text color */
+  text-align: center; /* Center-align text */
+}
+
+/* Style for video list */
+.videolist {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px; /* Adjust the padding */
+  color: #ffffff; /* White text color */
+}
+
+/* Style for video item */
+.videoitem {
+  border: 1px solid #282c34; /* Dark border color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  background-color: #1e1e24; /* Dark background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Style for video title */
+.videotitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: center; /* Center-align text */
+  color: #ffffff; /* White text color */
+}
+
+/* Style for video thumbnail container */
+.videothumbnailcontainer {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  position: relative; /* Added position relative for absolute positioning */
+  transition: border 0.3s ease, transform 0.3s ease; /* Added transition for border and transform properties */
+}
+
+/* Style for video thumbnail */
+.videothumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Added style for the border movement on hover */
+.videothumbnailcontainer:hover {
+  border: 2px solid rgb(173, 89, 59); /* Border color on hover */
+  transform: scale(1.05); /* Scale the container on hover */
+}
+
+/* Style for remove button */
+.removeButton {
+  padding: 8px 16px;
+  background-color: orangered; /* Red color for the remove button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.removeButton:hover {
+  background-color: #b75a33; /* Darker red on hover */
+  font-weight: 500;
+}

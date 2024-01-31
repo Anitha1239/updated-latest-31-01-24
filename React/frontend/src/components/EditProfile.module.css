@@ -1,0 +1,86 @@
+/* EditProfileForm.css */
+
+.editprofilecontainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 2%;
+}
+
+.editprofilecontainer h2 {
+  color: #333;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.editprofilecontainer form {
+  display: grid;
+  gap: 10px;
+}
+
+.editprofilecontainer label {
+  font-weight: bold;
+}
+
+.editprofilecontainer input,
+.editprofilecontainer button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.editprofilecontainer input[type="checkbox"] {
+  width: auto;
+}
+
+.editprofilecontainer button {
+  background-color: rgba(255, 68, 0, 0.636);
+  color: #fff;
+  cursor: pointer;
+  width: 40%;
+  height: 100%;
+  margin-left: 30%;
+}
+
+.editprofilecontainer button:hover {
+  background-color: orangered;
+}
+
+.editprofilecontainer button:disabled {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.edit.deletebutton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.deletePopup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:green;
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+ 
+  margin-top:50px ;
+  font-weight: bold;
+}
